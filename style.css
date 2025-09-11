@@ -1,0 +1,158 @@
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #E5E7EB;
+        }
+
+        /* --- Custom Utility Classes --- */
+        .bg-dark-accent {
+            background-color: #1a1a1a;
+        }
+        .text-light-blue {
+            color: #1a73e8;
+        }
+        
+        /* --- General Section & Layout Classes --- */
+        .content-section {
+            max-width: 76rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        .padding-y-section {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+        .md\:padding-y-section {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
+
+        /* --- Header & Navigation Classes --- */
+        .main-header {
+            width: 100%;
+            background-color: #000;
+            padding: 1rem 1.5rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 50;
+        }
+        .md\:main-header {
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        .nav-link {
+            transition-property: color;
+            transition-duration: 300ms;
+        }
+        .nav-link:hover {
+            color: #fff;
+        }
+
+        /* --- Section-specific Classes --- */
+        .main-title {
+            font-size: 3rem;
+            line-height: 1.25;
+            font-weight: 800;
+        }
+        .md\:main-title {
+            font-size: 3.75rem;
+        }
+        .section-title {
+            font-size: 2.25rem; /* text-4xl */
+            font-weight: 700; /* font-bold */
+        }
+        .md\:section-title {
+            font-size: 3rem; /* md:text-5xl */
+        }
+        .section-subtitle {
+            font-size: 1.875rem; /* text-3xl */
+            font-weight: 700; /* font-bold */
+            margin-bottom: 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #fff;
+            color: #000;
+            padding: 0.75rem 2rem;
+            border-radius: 9999px;
+            font-weight: 700;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #e5e5e5;
+        }
+        .skill-heading {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a73e8;
+            margin-bottom: 1rem;
+        }
+        .category-heading {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #E5E7EB;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .skill-logo {
+            width: 3rem;
+            height: 3rem;
+        }
+        .skill-name {
+            margin-top: 0.5rem;
+            text-align: center;
+            font-size: 0.875rem;
+        }
+        .project-highlight-list {
+            margin-top: 1rem;
+            list-style-type: disc;
+            padding-left: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        .project-highlight-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .preview-text {
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        .more-preview {
+            margin-top: 2rem;
+        }
+
+        /* PORTFOLIO */
+        
+        .portfolio-card {
+            background-color: #1a1a1a;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .portfolio-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .project-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        
+        /* --- Animation --- */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animated-section {
+            animation: fadeIn 1.5s ease-out;
+        }

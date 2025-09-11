@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bertrand Nicholaus - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');        
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-black text-gray-200">
+
+    <!-- Header & Navigation -->
+    <header class="main-header md:main-header">
+        <div class="flex items-center justify-between content-section">
+            <div class="text-xl font-bold tracking-wide">BERTRAND NICHOLAUS</div>
+            <nav class="flex space-x-6">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <!-- Social media links with icons -->
+                <a href="https://www.linkedin.com/in/bertrand-nicholaus-192964223/" target="_blank" class="nav-link" aria-label="LinkedIn Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="https://sketchfab.com/bertrandnicholaus" target="_blank" class="nav-link" aria-label="Sketchfab Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="currentColor" viewBox="0 0 2000 2000"><path d="m1000 0c-552.32 0-1000 447.72-1000 1000s447.68 1000 1000 1000 1000-447.72 1000-1000-447.6-1000-1000-1000zm-86.88 1595.07-431.12-248.86v-502l431.12 232.79zm76.8-636.19-510.08-270.38 510.08-294.5 510.16 294.5zm510.48 388.29-429.52 248v-516.17l429.52-232z"/></svg>
+                </a>
+                <a href="https://www.deviantart.com/expiredseaweed" target="_blank" class="nav-link" aria-label="DeviantArt Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="currentColor" viewBox="0 0 24 24"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18.0041 2H17.9993H17.9981H14.5613L14.194 2.36492L12.4426 5.70806L11.9312 6.00336H6V10.9995H9.16908L9.49919 11.3296L6 18.0086V21.9868V22L9.44517 21.9988L9.8137 21.6327L11.5687 18.2883L12.0693 17.999H18.0041V13.0053H14.8254L14.5037 12.6836L18.0041 6.00096"></path> </g></svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-24 md:pt-32">
+        <!-- Main Portfolio Section -->
+        <section id="portfolio" class="w-full py-16 md:py-24 animated-section">
+            <div class="max-w-7xl mx-auto px-6 md:px-12">
+                <h2 class="text-4xl md:text-5xl font-bold text-center">PORTFOLIO</h2>
+                <p class="text-center mt-4 text-gray-400">Welcome to my portfolio! Here, you'll find a curated selection of my work, showcasing my skills in both game application and full-stack web development. This collection highlights projects from my time as a Computer Science student and a recent web development course. You'll find a range of my work, from game art and development using tools like Unity and Blender, to web applications built with HTML, CSS, and JavaScript. I'm excited to share my creative journey and technical abilities with you.<br><br>Below are some of the projects I'm most proud of. <br>Click on each one to learn more.</p>
+                
+                <div class="mt-12 space-y-12">
+
+                    <!-- Project Category: Web Development -->
+                    <div class="bg-dark-accent p-8 rounded-lg">
+                        <h3 class="text-3xl font-bold text-center">Web Development</h3>
+                        <div class="grid md:grid-cols-2 gap-8 mt-8">
+
+                            <!-- Project 1: Mondrian Project -->
+                            <a href="./Pages/Simon Game Challenge Starting Files/index.html" class="portfolio-card p-6 rounded-lg block">
+                                <h4 class="text-2xl font-semibold mb-2">Mondrian Project</h4>
+                                <h5 class="text-xl font-medium mb-4 text-gray-400">HTML & CSS - Grid</h5>
+                                <p class="text-gray-400">A front-end project focused on creating a visually striking digital representation of Piet Mondrian's signature geometric art. This work demonstrates my ability to meticulously replicate complex designs using HTML and CSS while focusing on clean, maintainable code.</p>
+                                <img src="./Images/Preview/MondrianPreview.png" alt="Mondrian Project Thumbnail" class="rounded-lg mt-4 w-full h-48 object-cover">
+                            </a>
+
+                            <!-- Project 2: Simon Says -->
+                            <a href="./Pages/Simon Game Challenge Starting Files/index.html" class="portfolio-card p-6 rounded-lg block">
+                                <h4 class="text-2xl font-semibold mb-2">Simon Says</h4>
+                                <p class="text-gray-400">JavaScript JQuery Game</p>
+                                <p class="text-gray-400 mt-2">A web-based "Simon Says" game created to showcase my skills in front-end development, primarily utilizing JavaScript and jQuery for dynamic gameplay and user interaction.</p>
+                                <img src="./Images/Preview/SimonPreview.png" alt="Simon Says Game Project Thumbnail" class="rounded-lg mt-4 w-full h-48 object-cover">
+                            </a>
+
+                            <!-- Project 3: ColorTrivia -->
+                            <a href="./Pages/WebGame/colorTrivia.html" class="portfolio-card p-6 rounded-lg block">
+                                <h4 class="text-2xl font-semibold mb-2">Color Trivia</h4>
+                                <p class="text-gray-400">Javascript </p>
+                                <p class="text-gray-400 mt-2">A fun, interactive trivia game built that can be play by 2 people or more to test trivial and general knowledge. This project is created to highlight engaging user experiences using a combination of HTML, CSS, and JavaScript.</p>
+                                <img src="./Images/Preview/ColorTriviaPreview.png" alt="Color Trivia Game Project Thumbnail" class="rounded-lg mt-4 w-full h-48 object-cover">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project Category: Game Development -->
+                    <div class="bg-dark-accent p-8 rounded-lg">
+                        <h3 class="text-3xl font-bold text-center">Game Development</h3>
+                        <div class="grid md:grid-cols-2 gap-8 mt-8">
+
+                            <!-- Project 1: Untitled Project Horror -->
+                            <a href="./projectHorror.html" class="portfolio-card p-6 rounded-lg block">
+                                <h4 class="text-2xl font-semibold mb-2">Current Project</h4>
+                                <h5 class="text-xl font-medium mb-4 text-gray-400">Untitled Project Horror</h5>
+                                <p class="text-gray-400">A low-poly, PSX/PS1-style horror game currently in development with my team. As the Game Artist, I am responsible for creating all of the in-game assets.</p>
+                                <img src="./Images/Preview/Morpozoiders.png" alt="Horror Project Thumbnail" class="rounded-lg mt-4 w-full h-48 object-cover">
+                            </a>
+
+                            <!-- Project 2: BOOMVR! -->
+                            <a href="https://rangegat.itch.io./Boom-VR" class="portfolio-card p-6 rounded-lg block">
+                                <h4 class="text-2xl font-semibold mb-2">BOOMVR!!</h4>
+                                <p class="text-gray-400">VR Asset and Environment Building</p>
+                                <p class="text-gray-400 mt-2">A Virtual Reality puzzle game for which I designed all 3D game assets and environments, as well as the 2D game UI and UX assets.</p>
+                                <img src="./Images/Preview/BOOMLogo.png" alt="Blender Project Thumbnail" class="rounded-lg mt-4 w-full h-48 object-cover">
+                            </a>
+                             
+                            <!-- Project 3: Running Out Of Time -->
+                            <a href="https://rangegat.itch.io./running-out-of-time" class="portfolio-card p-6 rounded-lg block">
+                                <h4 class="text-2xl font-semibold mb-2">ROOT - Running Out Of Time</h4>
+                                <p class="text-gray-400">2D Endless Running Game</p>
+                                <p class="text-gray-400 mt-2">A 2D endless runner platformer game where I was responsible for designing the main character and hand-drawing all of the game assets.</p>
+                                <img src="./Images/Preview/ROOT.png" alt="Blender Project Thumbnail" class="rounded-lg mt-4 w-full h-48 object-cover">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project Category: Game Art Book -->
+                    <div class="bg-dark-accent p-8 rounded-lg">
+                        <h3 class="text-3xl font-bold text-center">Game Artbook & Concept Art</h3>
+                        <div class="grid md:grid-cols-2 gap-8 mt-8">
+
+                            <!-- Project 3: The Other Atlantis -->
+                            <a href="project_details.html" class="portfolio-card p-6 rounded-lg block">
+                                <h4 class="text-2xl font-semibold mb-2">The Other Atlantis</h4>
+                                <p class="text-gray-400">The Other Atlantis is a collaborative art project created as a class assignment. It involved designing and drawing concepts for an art book, showcasing my abilities in storyboarding and concept art.</p>
+                                <img src="./Images/Preview/Atlantis.jpg" alt="Atlantis Project Thumbnail" class="rounded-lg mt-4 w-full h-48 object-cover">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-dark-accent p-8 rounded-lg">
+                        <h3 class="text-3xl font-bold text-center">3D Modelling, Texturing, Rendering & Animation</h3>
+                        <p class="text-gray-400 text-center"><br>This section showcases my work in Blender, where I have gained valuable experience in 3D modeling, texturing, rendering, and animation. These projects reflect my dedication to using this powerful software to bring artistic visions to life.</p>
+                        <div class="grid md:grid-cols-2 gap-8 mt-8">
+                            
+                            <!-- Project 1: VirtualBooth -->
+                            <a href="" class="portfolio-card p-6 rounded-lg block">
+                                <h4 class="text-2xl font-semibold mb-2">VirtualBooth</h4>
+                                <h5 class="text-xl font-medium mb-4 text-gray-400">3D Booth Assets Modelling and Texturing</h5>
+                                <p class="text-gray-400">Virtual Booth is a mobile app for low-poly virtual gatherings. Users can select and customize their own booths from pre-designed templates. I was responsible for creating the low-poly, fully textured assets for this project.</p>
+                                <img src="./Images/Preview/VirBoothPreview.png" alt="Horror Project Thumbnail" class="rounded-lg mt-4 w-full h-48 object-cover">
+                            </a>
+                            
+                            <!-- Project 2: Desert Tile -->
+                            <a href="https://rangegat.itch.io./Boom-VR" class="portfolio-card p-6 rounded-lg block">
+                                <h4 class="text-2xl font-semibold mb-2">Desert Tile</h4>
+                                <p class="text-gray-400">My First 3D Project</p>
+                                <p class="text-gray-400 mt-2">This was my first 3D modeling assignment. The project required me to create five 3D objects, including a humanoid character, and develop three distinct animations. It marked my introduction to Blender and rigging with armatures and bones.</p>
+                                <img src="./Images/Preview/BOOMLogo.png" alt="Blender Project Thumbnail" class="rounded-lg mt-4 w-full h-48 object-cover">
+                            </a>
+                             
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-black py-8 md:py-12">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 text-center text-gray-500">
+            <p>© 2025 by Bertrand Nicholaus</p>
+        </div>
+    </footer>
+
+</body>
+</html>
