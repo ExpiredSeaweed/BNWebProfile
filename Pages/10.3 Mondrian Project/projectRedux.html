@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Redux</title>
+
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container{
+            display: grid;
+            height: 600px;
+            width: 500px;
+            background-color: black;
+            grid-template-columns: 5px 85px 60px 120px 140px 65px;
+            grid-template-rows: 15px 60px 90px 130px 95px 80px 80px 15px;
+            gap: 5px;
+        }
+
+        /* color */
+
+        .bl {
+            background-color: black;
+        }
+
+        .g {
+            background-color: gray;
+        }
+
+        .c {
+            background-color:wheat;
+        }
+
+        .o {
+            background-color: orange;
+        }
+
+        .r {
+            background-color: red;
+        }
+
+        .lb {
+            background-color: lightblue;
+        }
+
+        .db {
+            background-color: darkblue;
+        }
+
+        /* items */
+
+        .gray1 {
+            grid-column: 3 span;
+        }
+
+        .orange1 {
+            grid-column: 2 span;
+        }
+
+        .black2 {
+            grid-column: 2 span;
+        }
+
+        .gray2 {
+            grid-column: 2 span;
+        }
+
+        .lb2 {
+            grid-row: 2 span;
+        }
+
+        .lb3 {
+            grid-area: 3 / 1 / 5 / 3;
+        }
+
+        .cream4 {
+            grid-row: 2 span;
+        }
+
+        .red1 {
+            grid-row: 2 span;
+        }
+
+        .db1 {
+            grid-row: 2 span;
+        }
+
+        .db2 {
+            grid-area: 5 / 1 / 7 / 3;
+        }
+
+        .black3 {
+            grid-column: 2 span;
+        }
+
+        .red2 {
+            grid-row: 2 span;
+        }
+
+        .gray3 {
+            grid-area: 7 / 1 / 9 / 3;
+        }
+
+        .gray4 {
+            grid-column: 2 span;
+        }
+
+        .lb6 {
+            grid-column: 3 span;
+        }
+
+        .home-button {
+            align-self: flex-start;
+            padding: 2px;
+        }
+
+</style>
+
+</head>
+
+<body>
+    <a href="./mondrianMenu.html" class="home-button">
+        ← Back to home
+    </a>
+
+    <div class="container">
+        <div class="bl black1"></div>
+        <div class="g gray1"></div>
+        <div class="o orange1"></div>
+
+        <div class="bl black2"></div>
+        <div class="g gray2"></div>
+        <div class="lb lb1"></div>
+        <div class="lb lb2"></div>
+
+        <div class="lb lb3"></div>
+        <div class="c cream1"></div>
+        <div class="c cream2"></div>
+        <div class="lb lb4"></div>
+
+        <div class="c cream3"></div>
+        <div class="c cream4"></div>
+        <div class="r red1"></div>
+        <div class="db db1"></div>
+
+        <div class="db db2"></div>
+        <div class="c cream5"></div>
+
+        <div class="bl black3"></div>
+        <div class="lb lb5"></div>
+        <div class="r red2"></div>
+
+        <div class="g gray3"></div>
+        <div class="g gray4"></div>
+        <div class="c cream6"></div>
+
+        <div class="lb lb6"></div>
+        <div class="g gray5"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project • Menu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+        .mainly {
+            background-color: #282A35;
+        }
+
+        #mondrian-intro {
+            background-color: #282A35;
+            padding: 0;
+            margin: 20vh;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .mondrian-title {
+            font-family: "Glass Antiqua", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 10vh;
+        }
+
+        .welcome {
+            margin: 0;
+            padding: 0;
+        }
+
+        .portrait {
+            margin-top: 2rem;
+            text-align: center;
+            font-family:'Courier New', Courier, monospace;
+            ;
+        }
+
+        .mondrian-portrait {
+            margin: auto;
+            height: 30rem;
+        }
+
+        /* Content */
+
+        .content-title {
+            font-family: "Glass Antiqua", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 5vh;
+        }
+
+        .content-desc {
+            text-align: center;
+            font-size: large;
+            margin: 15vh;
+            margin-top: 0;
+            margin-bottom: 3vh;
+        }
+
+        #mondrian-content {
+            padding: 1vh;
+        }
+
+        .project-card {
+            margin: 5vh;
+            padding: 3vh;
+            border-radius: 8px;
+            background-color: #282A35;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ref-img {
+            margin: auto;
+            height: 70vh;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        
+
+    </style>
+
+    <link rel="stylesheet" href="../ProfileWeb/style.css">
+
+</head>
+
+<body class="bg-black text-gray-200">
+
+    <header class="main-header md:main-header">
+        <div class="flex items-center justify-between content-section">
+            <div class="text-xl font-bold tracking-wide">BERTRAND NICHOLAUS</div>
+            <nav class="flex space-x-6">
+                <a href="./index.html" class="nav-link">Home</a>
+                <a href="./portfolio.html" class="nav-link">Portfolio</a>
+                
+                <a href="https://www.linkedin.com/in/bertrand-nicholaus-192964223/" target="_blank" class="nav-link" aria-label="LinkedIn Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="https://sketchfab.com/bertrandnicholaus" target="_blank" class="nav-link" aria-label="Sketchfab Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="currentColor" viewBox="0 0 2000 2000"><path d="m1000 0c-552.32 0-1000 447.72-1000 1000s447.68 1000 1000 1000 1000-447.72 1000-1000-447.6-1000-1000-1000zm-86.88 1595.07-431.12-248.86v-502l431.12 232.79zm76.8-636.19-510.08-270.38 510.08-294.5 510.16 294.5zm510.48 388.29-429.52 248v-516.17l429.52-232z"/></svg>
+                </a>
+                <a href="https://www.deviantart.com/expiredseaweed" target="_blank" class="nav-link" aria-label="DeviantArt Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="currentColor" viewBox="0 0 24 24"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18.0041 2H17.9993H17.9981H14.5613L14.194 2.36492L12.4426 5.70806L11.9312 6.00336H6V10.9995H9.16908L9.49919 11.3296L6 18.0086V21.9868V22L9.44517 21.9988L9.8137 21.6327L11.5687 18.2883L12.0693 17.999H18.0041V13.0053H14.8254L14.5037 12.6836L18.0041 6.00096"></path> </g></svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-24 md:pt-32 mainly">
+
+    <section id="mondrian-intro">
+        <div class="text-center">
+            <h2 class="welcome">Welcome to the</h2>
+            <h1 class="mondrian-title">Mondrian Project</h1>  
+            <p>A front-end project focused on creating a visually striking digital representation of Piet Mondrian's signature geometric art. This work demonstrates my ability to meticulously replicate complex designs using HTML and CSS while focusing on CSS Flexbox and Grid display manipulation. With each project demands more complicated column, row and grid area placement.</p>
+        </div>
+
+        <a href="https://share.google/mz84XzW0zCjp5ykdc">
+            <div class="portrait">
+                <img class="mondrian-portrait" src="../ProfileWeb/Images/Preview/221003_r41105.webp" alt="Piet Mondrian Photograph">
+                <p>Pieter Cornelis "Piet" Mondriaan</p>
+            </div>
+        </a>
+        
+        
+    </section>
+
+    <section id="mondrian-content">
+        
+        <a href="./project1.html" id="p1">
+            <div class="project-card">
+                <h3 class="text-center content-title">Project 1</h3>
+                <p class="content-desc">My first attempt at replicating a Mondrian composition. This foundational exercise established the basic use of a CSS Grid within the classic 1:1 square aspect ratio, focusing on simple row and column division.</p>
+                
+                <img src="./Project IMG/project1.jpg" alt="" class="ref-img">
+                <p class="text-center mt-1">Reference picture for <i>Project 1</i></p>
+            </div>
+        </a>
+
+        <a href="./project2.html" id="p2">
+            <div class="project-card">
+                <h3 class="text-center content-title">Project 2</h3>
+                <p class="content-desc">This project increased the complexity by requiring more detailed CSS Grid management. This iteration maintained the 1:1 square ratio but introduced more numerous and varied row and column tracks to build a denser composition.</p>
+                
+                <img src="./Project IMG/project2.jpg" alt="" class="ref-img">
+                <p class="text-center mt-1">Reference picture for <i>Project 2</i></p>
+            </div>
+        </a>
+
+        <a href="./project3.html" id="p3">
+            <div class="project-card">
+                <h3 class="text-center content-title">Project 3</h3>
+                <p class="content-desc">This composition pushed the limits of basic grid structures within the 1:1 square ratio. This piece demanded sophisticated grid area and column-spanning techniques to accurately replicate a highly detailed Mondrian composition.</p>
+                
+                <img src="./Project IMG/project3.jpg" alt="" class="ref-img">
+                <p class="text-center mt-1">Reference picture for <i>Project 3</i></p>
+            </div>
+        </a>
+
+        <a href="./project4.html" id="p4">
+            <div class="project-card">
+                <h3 class="text-center content-title">Project 4</h3>
+                <p class="content-desc">My fourth Mondrian project tackles a significant shift in composition: moving from the previous 1:1 square layouts to a taller, non-square aspect ratio. This piece required a more complex grid structure and precise control to replicate the intricate reference painting within the new canvas dimensions.</p>
+                
+                <img src="./Project IMG/project4.jpg" alt="" class="ref-img">
+                <p class="text-center mt-1">Reference picture for <i>Project 4</i></p>
+            </div>
+        </a>
+
+        <a href="./project5.html" id="p5">
+            <div class="project-card">
+                <h3 class="text-center content-title">Project 5</h3>
+                <p class="content-desc">My most challenging replication yet. Demanding mixes of few different CSS Grid techniques, including intricate combinations of columns, rows, and grid areas to accurately map the reference painting's irregular and nested block structure.</p>
+                
+                <img src="./Project IMG/project5.jpg" alt="" class="ref-img">
+                <p class="text-center mt-1">Reference picture for <i>Project 5</i></p>
+            </div>
+        </a>
+
+        <a href="./projectRedux.html" id="redux">
+            <div class="project-card">
+                <h3 class="text-center content-title">Project Redux</h3>
+                <p class="content-desc">Project Redux is the culmination of my Mondrian series. Instead of replicating a painting, I used this project to create my own original composition, applying my accumulated CSS Grid knowledge in a self-directed challenge. This piece highlights the technical skills learned and the true genius of Mondrian's balance in comparison to my first attempt at the style.</p>
+                
+                <img src="./Project IMG/projectRedux.png" alt="" class="ref-img">
+                <p class="text-center mt-1"><i>Project Redux</i> preview picture</p>
+            </div>
+        </a>
+
+    </section>
+        
+
+    </main>
+
+        
+</body>
+</html>

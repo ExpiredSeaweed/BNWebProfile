@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project 5</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            justify-content: center;height: 100vh;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: grid;
+            height: 600px;
+            width: 600px;
+            border: 3px solid#07000A;
+            background-color: black;
+            grid-template-columns: 30px 70px 100px 150px 150px 40px 30px;
+            grid-template-rows: 30px 60px 40px 120px 100px 90px 45px 40px 35px;
+            gap: 5px;
+        }
+
+        /*
+        Color
+        */
+
+        .bl {
+            background-color: #07000A;
+        }
+
+        .g {
+            background-color: #B3B9C5;
+        }
+
+        .w {
+            background-color: #FAFAF8;
+        }
+
+        .y {
+            background-color: #F2BC00;
+        }
+
+        .r {
+            background-color: #E52000;
+        }
+
+        .b {
+            background-color: #132382;
+        }
+
+        /*
+        Items
+        */
+        .black1 {
+            grid-row: span 3;
+        }
+
+        .gray1 {
+            grid-column: span 2;
+        }
+        
+        .white1 {
+            grid-row: span 2;
+        }
+
+        .gray2 {
+            grid-row: span 2;
+        }
+
+        .yellow1 {
+            grid-area: 1 / 6 / 4 / 8;
+        }
+
+        .red1 {
+            grid-row: span 2;
+        }
+
+        .white2 {
+            grid-row: span 2;
+        }
+
+        .white3 {
+            grid-row: span 2;
+        }
+
+        .blue2 {
+            grid-column: span 2;
+        }
+
+        .red2 {
+            grid-row: span 3;
+        }
+
+        .white4 {
+            grid-row: span 3;
+        }
+
+        .black2 {
+            grid-column: span 2;
+        }
+
+        .black3 {
+            grid-row: span 2;
+        }
+
+        .gray4 {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .red3 {
+            grid-row: span 3;
+        }
+
+        .blue3 {
+            grid-row: span 2;
+        }
+
+        .yellow4 {
+            grid-row: span 2;
+        }
+
+        .white7 {
+            grid-row: span 3;
+            grid-column: span 2;
+        }
+
+        .white8 {
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+
+        .black4 {
+            grid-column: span 2;
+        }
+
+        .home-button {
+            align-self: flex-start;
+            padding: 2px;
+        }
+
+        .ref-pic {
+            align-self: flex-start;
+        }
+
+    </style>
+</head>
+
+<body>
+    <a href="./mondrianMenu.html" class="home-button">
+        ← Back to home
+    </a>
+
+    <div class="container">
+        <div class="bl black1"></div>
+        <div class="g gray1"></div> 
+        <div class="w white1"></div>
+        <div class="g gray2"></div>
+        <div class="y yellow1"></div>
+
+        <div class="r red1"></div>
+        <div class="w white2"></div>
+        <div class="y yellow2"></div>
+        <div class="b blue1"></div>
+
+        <div class="w white3"></div>
+        <div class="b blue2"></div>
+        <div class="y yellow3"></div>
+        <div class="g gray3"></div>
+        <div class="r red2"></div>
+        <div class="w white4"></div>
+
+        <div class="bl black2"></div>
+        <div class="w white5"></div>
+        <div class="bl black3"></div>
+
+        <div class="g gray4"></div>
+        <div class="r red3"></div>
+        <div class="w white6"></div>
+
+        <div class="b blue3"></div>
+        <div class="y yellow4"></div>
+        <div class="w white7"></div>
+
+        <div class="w white8"></div>
+        <div class="bl black4"></div>
+        <div class="g gray5"></div>
+    </div>
+
+    <a href="./Project IMG/project5.jpg" class="ref-pic">Reference Picture →</a>
+
+</body>
+
+</html>

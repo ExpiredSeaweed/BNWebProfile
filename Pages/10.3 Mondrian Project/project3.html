@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project 3</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            height: 600px;
+            width: 600px;
+            background-color: black;
+            grid-template-columns: 80px 220px 150px 120px;
+            grid-template-rows: 240px 140px 140px 50px;
+            gap: 10px;
+        }
+
+        .red {
+            background-color: #F1251A;
+            grid-column: span 2;
+        }
+
+        .white1 {
+            background-color: whitesmoke;
+            grid-column: span 2;
+        }
+
+        .white2 {
+            background-color: whitesmoke;
+            grid-column: span 2;
+        }
+
+        .white3 {
+            background-color: whitesmoke;
+            grid-column: span 2;
+        }
+
+        .yellow {
+            background-color: #F7E974;
+            grid-row: span 2;
+        }
+
+        .white4 {
+            background-color: whitesmoke;
+            grid-row: span 2;
+        }
+
+        .blue {
+            background-color: #0162AF;
+        }
+
+        .white5 {
+            background-color: whitesmoke;
+            grid-row: span 2;
+        }
+
+        .white6 {
+            background-color: whitesmoke;
+        }
+
+        .home-button {
+            align-self: flex-start;
+            padding: 2px;
+        }
+
+        .ref-pic {
+            align-self: flex-start;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <a href="./mondrianMenu.html" class="home-button">
+        ← Back to home
+    </a>
+    
+    <div class="container">
+        <div class="red"></div>
+        <div class="white1"></div>
+
+        <div class="white2"></div>
+        <div class="white3"></div>
+
+        <div class="yellow"></div>
+        <div class="white4"></div>
+
+        <div class="blue"></div>
+        <div class="white5"></div>
+        <div class="white6"></div>
+    </div>
+
+    <a href="./Project IMG/project3.jpg" class="ref-pic">Reference Picture →</a>
+
+</body>
+
+</html>

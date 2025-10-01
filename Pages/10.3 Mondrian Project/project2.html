@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project 2</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: grid;
+            height: 600px;
+            width: 600px;
+            background-color: #000;
+            grid-template-columns: 120px 420px 30px;
+            grid-template-rows: 190px 240px 70px 55px;
+            gap: 15px;
+        }
+
+        .white1 {
+            background-color: whitesmoke;
+            border-bottom: 10px solid #000;
+        }
+
+        .red {
+            background-color: #F1251A;
+            grid-area: 1/ 2 / 3 / 4;
+        }
+
+        .white2 {
+            background-color: whitesmoke;
+        }
+
+        .blue {
+            background-color: #0162AF;
+            grid-row: span 2;
+        }
+
+        .white3 {
+            background-color: whitesmoke;
+            grid-row: span 2;
+        }
+
+        .white4 {
+            background-color: whitesmoke;
+            border-bottom: 10px solid #000;
+        }
+
+        .yellow {
+            background-color: #F7E974;
+        }
+
+        .home-button {
+            align-self: flex-start;
+            padding: 2px;
+        }
+
+        .ref-pic {
+            align-self: flex-start;
+        }
+
+    </style>
+</head>
+
+<body>
+    <a href="./mondrianMenu.html#p2" class="home-button">
+        ← Back to home
+    </a>
+    
+    <div class="container">
+        <div class="white1"></div>
+        <div class="red"></div>
+        <div class="white2"></div>
+
+        <div class="blue"></div>
+        <div class="white3"></div>
+
+        <div class="white4"></div>
+        <div class="yellow"></div>
+    </div>
+
+    <a href="./Project IMG/project1.jpg" class="ref-pic">Reference Picture →</a>
+
+</body>
+
+</html>

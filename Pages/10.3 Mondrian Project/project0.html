@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project 0</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      height: 120vh;
+    }
+
+    .gondrian-container {
+      display: grid;
+      height: 748px;
+      width: 748px;
+      background-color: #000;
+      gap: 9px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 132px 155px 20px;
+    }
+
+    .red {
+      background-color: #E72F24;
+    }
+
+    .white1 {
+      background-color: #F0F1EC;
+      grid-column: span 3;
+    }
+
+    .white2 {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .white3 {
+      background-color: #F0F1EC;
+      grid-area: 2 / 2 / 4 / 4;
+    }
+
+    .blue {
+      background-color: #004592;
+      border-bottom: 10px solid #000;
+    }
+
+    .white4 {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .white5 {
+      background-color: #F0F1EC;
+    }
+
+    .yellow {
+      background-color: #F9D01E;
+    }
+
+    .black {
+      background-color: #232629;
+    }
+
+    .home-button {
+      align-self: flex-start;
+      padding: 2px;
+    }
+
+    .ref-pic {
+            align-self: flex-start;
+    }
+
+  </style>
+</head>
+
+<body>
+  <a href="./mondrianMenu.html" class="home-button">
+    ← Back to home
+  </a>
+  
+  <div class="gondrian-container">
+    <div class="red"></div>
+    <div class="white1"></div>
+    <div class="white2"></div>
+    <div class="white3"></div>
+    <div class="blue"></div>
+    <div class="white4"></div>
+
+    <div class="white5"></div>
+    <div class="yellow"></div>
+    <div class="black"></div>
+  </div>
+
+  <a href="./goal.png" class="ref-pic">Reference Picture →</a>
+
+</body>
+
+</html>
